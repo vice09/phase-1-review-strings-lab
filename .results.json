@@ -1,158 +1,27 @@
 {
   "stats": {
-    "suites": 5,
-    "tests": 10,
-    "passes": 10,
+    "suites": 0,
+    "tests": 0,
+    "passes": 0,
     "pending": 0,
-    "failures": 0,
-    "start": "2022-06-07T20:29:07.541Z",
-    "end": "2022-06-07T20:29:09.852Z",
-    "duration": 2311
+    "failures": 1,
+    "start": "2022-07-01T08:18:19.810Z",
+    "end": "2022-07-01T08:18:26.553Z",
+    "duration": 6743
   },
-  "tests": [
+  "tests": [],
+  "pending": [],
+  "failures": [
     {
-      "title": "is defined",
-      "fullTitle": "index.js currentUser is defined",
-      "duration": 31,
+      "title": "\"before all\" hook",
+      "fullTitle": "\"before all\" hook",
+      "duration": 6665,
       "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains \"Welcome to Flatbook, \"",
-      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 17,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 11,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "ends with an exclamation point!",
-      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains \"WELCOME TO FLATBOOK, \"",
-      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 3,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains \"Welcome, \"",
-      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains the first initial of the name stored in the 'currentUser' variable",
-      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
+      "err": {
+        "stack": "Error: Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves.\n    at Object.done (node_modules/mocha-jsdom/index.js:70:7)\n    at /home/vice/Developement/code/phase-1-review-strings-lab/phase-1-review-strings-lab/node_modules/jsdom/lib/jsdom.js:312:18\n    at processTicksAndRejections (node:internal/process/task_queues:78:11)",
+        "message": "Timeout of 5000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves."
+      }
     }
   ],
-  "pending": [],
-  "failures": [],
-  "passes": [
-    {
-      "title": "is defined",
-      "fullTitle": "index.js currentUser is defined",
-      "duration": 31,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains \"Welcome to Flatbook, \"",
-      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
-      "duration": 17,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 11,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "ends with an exclamation point!",
-      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains \"WELCOME TO FLATBOOK, \"",
-      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
-      "duration": 3,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains the value of the 'currentUser' variable",
-      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains \"Welcome, \"",
-      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "contains the first initial of the name stored in the 'currentUser' variable",
-      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {}
-    },
-    {
-      "title": "ends with an exclamation point",
-      "fullTitle": "index.js shortGreeting ends with an exclamation point",
-      "duration": 1,
-      "currentRetry": 0,
-      "err": {}
-    }
-  ]
+  "passes": []
 }
